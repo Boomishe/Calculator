@@ -33,7 +33,7 @@ Main::Main() : wxFrame(nullptr, wxID_ANY, "Main", wxPoint(200, 200), wxSize(400,
 	btnFirstValueErase = new wxButton(this, 101, "CE", wxPoint(97, 90), wxSize(95, 65));
 	btnDelete = new wxButton(this, 102, "C", wxPoint(192, 90), wxSize(95, 65));
 	btnErase = new wxButton(this, 103, "-->", wxPoint(287, 90), wxSize(95, 65));
-
+	
 	//------------------Lane 2------------------------
 	btnMod = new wxButton(this, 104, "%", wxPoint(2, 155), wxSize(95, 65));
 	btnMultItSelf = new wxButton(this, 105, "x^2", wxPoint(97, 155), wxSize(95, 65));
