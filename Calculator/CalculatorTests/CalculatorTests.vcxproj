@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{aa52cc0a-4ee1-4e72-ac63-72b3a36fd93a}</ProjectGuid>
-    <RootNamespace>Calculator</RootNamespace>
+    <ProjectGuid>{d573f804-1281-4469-8740-81c96f48701d}</ProjectGuid>
+    <RootNamespace>CalculatorTests</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,18 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
-    <ClInclude Include="ButtonFactory.h" />
-    <ClInclude Include="CalculatorProcessor.h" />
-    <ClInclude Include="IBaseCommand.h" />
-    <ClInclude Include="Main.h" />
+    <ClCompile Include="ButtonFactoryTests.cpp" />
+    <ClCompile Include="CalculatorTests.cpp" />
+    <ClCompile Include="ProcessorTests.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
-    <ClCompile Include="ButtonFactory.cpp" />
-    <ClCompile Include="CalculatorProcessor.cpp" />
-    <ClCompile Include="IBaseCommand.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClInclude Include="ButtonFactoryTests.h" />
+    <ClInclude Include="ProcessorTests.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

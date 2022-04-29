@@ -2,7 +2,7 @@
 #include "wx/wx.h"
 #include "Main.h"
 
-class ButtonFactory;
+class Main;
 
 
 class App : public wxApp
@@ -12,7 +12,7 @@ public:
 	~App();
 
 private:
-	ButtonFactory* showMp = nullptr;
+	Main* showMp = nullptr;
 
 public:
 	virtual bool OnInit();
